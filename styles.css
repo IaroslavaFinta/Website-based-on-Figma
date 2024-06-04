@@ -1,0 +1,147 @@
+body {
+  font-family: "Plus Jakarta Sans";
+  color: black;
+}
+
+#page-wrapper {
+  padding: 60px 120px 60px 120px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-sign {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin: 48px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 12px 20px 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+#contact-me {
+  width: 132px;
+  height: 42px;
+}
+
+#section-separate {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.main-image {
+  width: 1040px;
+  height: 360px;
+  padding-bottom: 40px;
+  border-radius: 24px;
+}
+
+h1,
+h2 {
+  display: inline;
+}
+
+h1 {
+  font-size: 78px;
+}
+
+h2 {
+  font-size: 60px;
+  padding: 0 0 60px 0;
+}
+
+p {
+  font-size: 20px;
+  padding: 40px 0 40px 0;
+}
+
+#get-touch {
+  width: 222px;
+  height: 63px;
+}
+
+.cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 325px;
+  height: auto;
+  margin: 32px;
+  border-radius: 24px;
+  background-color: rgb(231, 230, 230);
+}
+
+.card-image {
+  width: 325px;
+  height: 280px;
+  border-radius: 24px;
+}
+
+.inside-card {
+  height: 174px;
+  padding: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+#button-learn {
+  padding: 12px 20px 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  width: 132px;
+}
+
+#name, #email {
+  display: inline;
+  width: 242px;
+  height: 45px
+}
+
+#message {
+  width: 504px;
+  height: 104px;
+  display: grid;
+  margin: 40px 0px 40px 0px;
+}
+
+#button-sendmessage {
+  padding: 14px 28px 20px 28px;
+  border-radius: 12px;
+  font-size: 20px;
+  width: 198px;
+}
+
+#footer {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
