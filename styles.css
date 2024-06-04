@@ -3,11 +3,8 @@ body {
   color: black;
 }
 
-#page-wrapper {
-  padding: 60px 120px 60px 120px;
-}
-
 #header {
+  padding: 60px 120px 60px 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,8 +39,7 @@ button {
 }
 
 #section-separate {
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding: 60px 120px 60px 120px;
   text-align: center;
   align-items: center;
 }
@@ -119,17 +115,44 @@ h4 {
   width: 132px;
 }
 
-#name, #email {
+#step-separate {
+  text-align: left;
+}
+
+#number-circle {
+  font-size: 22px;
+  border-radius: 50%;
+  width: 34px;
+  height: px;
+  padding: 5px;
+  border: 2px solid;
+  text-align: center;
+}
+
+#step-describe {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 20px;
+  border-top: 1px solid;
+}
+
+#name,
+#email {
   display: inline;
   width: 242px;
-  height: 45px
+  height: 45px;
+  padding-left: 10px;
+  margin: 0px 20px 40px 0px;
+  background-color: #383636;
 }
 
 #message {
-  width: 504px;
+  width: 512px;
   height: 104px;
-  display: grid;
-  margin: 40px 0px 40px 0px;
+  background-color: #383636;
+  margin-bottom: 40px;
+  padding: 10px 0px 0px 10px;
+  display: flex;
 }
 
 #button-sendmessage {
@@ -140,7 +163,7 @@ h4 {
 }
 
 #footer {
-  padding-top: 60px;
+  padding: 60px 120px 60px 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
