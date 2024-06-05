@@ -8,6 +8,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position:sticky;
+  top: 0;
+  backdrop-filter: blur(4px);
 }
 
 .logo-sign {
@@ -38,7 +41,7 @@ button {
   height: 42px;
 }
 
-#section-separate {
+#section-separate-1, #section-separate-2, #section-separate-3, #section-separate-4 {
   padding: 60px 120px 60px 120px;
   text-align: center;
   align-items: center;
@@ -113,7 +116,13 @@ h4 {
   border-radius: 12px;
   font-size: 16px;
   width: 132px;
+  /* not working rule for visible only on hover */
+  /* visibility: hidden; */
 }
+/* not working rule for visible only on hover */
+/* #button-learn:hover {
+  visibility: visible;
+} */
 
 table {
   margin: 60px 120px 0px 120px;
