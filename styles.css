@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position:sticky;
+  position: sticky;
   top: 0;
   backdrop-filter: blur(4px);
 }
@@ -30,6 +30,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: blue;
+}
+
 button {
   padding: 12px 20px 12px 20px;
   border-radius: 12px;
@@ -41,13 +45,16 @@ button {
   height: 42px;
 }
 
-#section-separate-1, #section-separate-2, #section-separate-3, #section-separate-4 {
+#section-separate-1,
+#section-separate-2,
+#section-separate-3,
+#section-separate-4 {
   padding: 60px 120px 60px 120px;
   text-align: center;
   align-items: center;
 }
 
-.main-image {
+#main-image {
   width: 1040px;
   height: 360px;
   padding-bottom: 40px;
@@ -111,17 +118,14 @@ h4 {
   font-size: 18px;
 }
 
-#button-learn {
+.button-learn {
   padding: 12px 20px 12px 20px;
   border-radius: 12px;
   font-size: 16px;
   width: 132px;
-  /* not working rule for visible only on hover */
-  /* visibility: hidden; */
 }
 /* not working rule for visible only on hover */
-/* #button-learn:hover {
-  visibility: visible;
+/* .button-learn:hover {
 } */
 
 table {
@@ -130,11 +134,11 @@ table {
   justify-content: center;
 }
 
-#step-separate {
+.step-separate {
   text-align: left;
 }
 
-#number-circle {
+.number-circle {
   font-size: 22px;
   border-radius: 50%;
   width: 34px;
@@ -144,11 +148,18 @@ table {
   text-align: center;
 }
 
-#step-describe {
+.step-describe {
   font-size: 18px;
   font-style: italic;
   padding-top: 20px;
   border-top: 1px solid;
+}
+
+form {
+  padding-bottom: 100px;
+  padding-left: 120px;
+  display: grid;
+  justify-content: center;
 }
 
 #name,
@@ -162,12 +173,11 @@ table {
 }
 
 #message {
-  width: 512px;
+  width: 504px;
   height: 104px;
   background-color: #383636;
   margin-bottom: 40px;
   padding: 10px 0px 0px 10px;
-  display: flex;
 }
 
 #button-sendmessage {
