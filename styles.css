@@ -159,7 +159,6 @@ table {
 
 form {
   padding-bottom: 6.25rem;
-  padding-left: 7.5rem;
   display: grid;
   justify-content: center;
 }
@@ -175,8 +174,8 @@ form {
 }
 
 #message {
-  width: 31.5rem;
-  height: 6.5rem;
+  width: 100%;
+  height: 5rem;
   background-color: #383636;
   margin-bottom: 2.5rem;
   padding: 0.625rem 0 0 0.625rem;
@@ -196,11 +195,20 @@ form {
   align-items: center;
 }
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   body {
     text-align: center;
     align-items: center;
+  }
+
+  #header,
+  #section-separate-1,
+  #section-separate-2,
+  #section-separate-3,
+  #section-separate-4,
+  #footer
+  {
+    padding: 2rem 2.5rem 2rem 2.5rem;
   }
 
   ul {
@@ -209,7 +217,7 @@ form {
     width: 3.75rem;
     display: block;
   }
-  
+
   li a {
     display: block;
   }
