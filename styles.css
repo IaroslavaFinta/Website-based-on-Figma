@@ -1,3 +1,7 @@
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: "Plus Jakarta Sans";
   color: black;
@@ -16,6 +20,9 @@ body {
 .logo-sign {
   font-size: 1.5rem;
   font-weight: bold;
+}
+.hamburger {
+  display: none;
 }
 
 li {
@@ -196,6 +203,10 @@ form {
 }
 
 @media only screen and (max-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
+
   body {
     text-align: center;
     align-items: center;
@@ -206,8 +217,7 @@ form {
   #section-separate-2,
   #section-separate-3,
   #section-separate-4,
-  #footer
-  {
+  #footer {
     padding: 2rem 2.5rem 2rem 2.5rem;
   }
 
@@ -225,4 +235,99 @@ form {
   .cards {
     display: block;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px black solid; */
+    width: 40px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .hamburger input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    border: 1px red solid;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  .hamburger span {
+    /* border-bottom: 1px black solid; */
+    padding: 5px;
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: black;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  .hamburger span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  .hamburger span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  .hamburger input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -25px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+ .hamburger input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+ .hamburger input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, 25px);
+}
+
+  .nav-list {
+    display: none;
+  }
+}
+
+.hamburger input:checked ~ ul
+{
+  transform: none;
 }
