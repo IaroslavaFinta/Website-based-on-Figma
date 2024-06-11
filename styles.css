@@ -4,7 +4,7 @@ body {
 }
 
 #header {
-  padding: 60px 120px 60px 120px;
+  padding: 3.75rem 7.5rem 3.75rem 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,15 +14,15 @@ body {
 }
 
 .logo-sign {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 li {
   display: inline;
   list-style: none;
-  margin: 48px;
-  font-size: 16px;
+  margin: 3rem;
+  font-size: 1rem;
 }
 
 a {
@@ -35,30 +35,32 @@ a:hover {
 }
 
 button {
-  padding: 12px 20px 12px 20px;
-  border-radius: 12px;
-  font-size: 16px;
+  padding: 7.5rem 1.25 7.5rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
 }
 
 #contact-me {
-  width: 132px;
-  height: 42px;
+  padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  width: 8.25rem;
 }
 
 #section-separate-1,
 #section-separate-2,
 #section-separate-3,
 #section-separate-4 {
-  padding: 60px 120px 60px 120px;
+  padding: 3.75rem 7.5rem 3.75rem 7.5rem;
   text-align: center;
   align-items: center;
 }
 
 #main-image {
-  width: 1040px;
-  height: 360px;
-  padding-bottom: 40px;
-  border-radius: 24px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2.5rem;
+  border-radius: 1.5rem;
 }
 
 h1,
@@ -67,69 +69,69 @@ h2 {
 }
 
 h1 {
-  font-size: 78px;
+  font-size: 5rem;
 }
 
 h2 {
-  font-size: 60px;
-  padding: 0 0 60px 0;
+  font-size: 3.75rem;
+  padding: 0 0 3.75rem 0;
 }
 
 p {
-  font-size: 20px;
-  padding: 40px 0 40px 0;
+  font-size: 1.25rem;
+  padding: 2.5rem 0 2.5rem 0;
 }
 
 #get-touch {
-  width: 222px;
-  height: 63px;
+  width: 14rem;
+  height: 4rem;
 }
 
 .cards {
-  margin-top: 60px;
+  margin-top: 3.75rem;
   display: flex;
   justify-content: center;
 }
 
 .card {
-  width: 325px;
+  width: 20.5rem;
   height: auto;
-  margin: 32px;
-  border-radius: 24px;
+  margin: 2rem;
+  border-radius: 1.5rem;
   background-color: rgb(231, 230, 230);
 }
 
 .card-image {
-  width: 325px;
-  height: 280px;
-  border-radius: 24px;
+  width: 75%;
+  height: auto;
+  border-radius: 1.5rem;
 }
 
 .inside-card {
-  height: 174px;
-  padding: 24px;
+  height: 11rem;
+  padding: 1.5rem;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .button-learn {
-  padding: 12px 20px 12px 20px;
-  border-radius: 12px;
-  font-size: 16px;
-  width: 132px;
+  padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  width: 8.25rem;
 }
 /* not working rule for visible only on hover */
 /* .button-learn:hover {
 } */
 
 table {
-  margin: 60px 120px 0px 120px;
+  margin: 3.75rem 7.5rem 0 7.5rem;
   display: flex;
   justify-content: center;
 }
@@ -139,25 +141,25 @@ table {
 }
 
 .number-circle {
-  font-size: 22px;
+  font-size: 1.375rem;
   border-radius: 50%;
-  width: 34px;
+  width: 2.125rem;
   height: px;
-  padding: 5px;
-  border: 2px solid;
+  padding: 0.3rem;
+  border: 0.125rem solid;
   text-align: center;
 }
 
 .step-describe {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: italic;
-  padding-top: 20px;
-  border-top: 1px solid;
+  padding-top: 1.25rem;
+  border-top: 0.06rem solid;
 }
 
 form {
-  padding-bottom: 100px;
-  padding-left: 120px;
+  padding-bottom: 6.25rem;
+  padding-left: 7.5rem;
   display: grid;
   justify-content: center;
 }
@@ -165,31 +167,54 @@ form {
 #name,
 #email {
   display: inline;
-  width: 242px;
-  height: 45px;
-  padding-left: 10px;
-  margin: 0px 20px 40px 0px;
+  width: 15.125rem;
+  height: 2.8rem;
+  padding-left: 0.625rem;
+  margin: 0 1.25rem 2.5rem 0;
   background-color: #383636;
 }
 
 #message {
-  width: 504px;
-  height: 104px;
+  width: 31.5rem;
+  height: 6.5rem;
   background-color: #383636;
-  margin-bottom: 40px;
-  padding: 10px 0px 0px 10px;
+  margin-bottom: 2.5rem;
+  padding: 0.625rem 0 0 0.625rem;
 }
 
 #button-sendmessage {
-  padding: 14px 28px 20px 28px;
-  border-radius: 12px;
-  font-size: 20px;
-  width: 198px;
+  padding: 0.875rem 1.75rem 1.25rem 1.75rem;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  width: 12rem;
 }
 
 #footer {
-  padding: 60px 120px 60px 120px;
+  padding: 3.75rem 7.5rem 3.75rem 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    text-align: center;
+    align-items: center;
+  }
+
+  ul {
+    margin: 0 0.75rem 0 0.75rem;
+    padding: 0;
+    width: 3.75rem;
+    display: block;
+  }
+  
+  li a {
+    display: block;
+  }
+
+  .cards {
+    display: block;
+  }
 }
